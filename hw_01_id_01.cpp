@@ -1,5 +1,5 @@
-// Author:
-// Date:
+// Author: Rebollo Avila Cesar
+// Date: 26/03/2015
 // Version:
 
 /*
@@ -7,13 +7,17 @@
   this assignment ...
 */
 
-#include <iostream>
 
+#include <iostream>
+#include<conio.h>
+
+using namespace std;
 int main ()
 {
-  // TODO your code here!!!!
-
-  std::cout<<"Hello world!!" <<std::endl;
-
-  return 0;
+	double x=2.7;
+	double y=3.5;
+	double z=122.78;
+	cout<<(x+y+z)/3<<endl;
+	getch();
+	return 0;
 }
